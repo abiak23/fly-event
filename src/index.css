@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.header-container {
+  width: 100%;
+  background-color: white;
+  height: 8vh;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 3%;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+}
+.nav-links li {
+  list-style: none;
+  margin: 0px 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.home-container {
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-img {
+  width: 100vw;
+  height: 55vh;
+  background-position: center;
+  background-size: auto;
+}
+.img-overlay-text {
+  font-size: 36px;
+  width: 30%;
+  position: absolute;
+  top: 50vh;
+  left: 1%;
+  color: white;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+.home-para {
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 10%;
+}
+.home-footer {
+  margin: auto;
+}
+.value-text {
+  font-size: 36px;
+  text-align: center;
+  margin: 20px 0px;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.card {
+  background-color: white;
+  width: 25%;
+  margin: 20px;
+  padding: 40px 10px;
+}
+.card-img {
+  width: 60px;
+  height: 60px;
+}
+.card-heading {
+  font-size: 26px;
+  font-weight: 700;
+}
+.card-para {
+  font-size: 14px;
+}
+
+.card2-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2% 20%;
+  align-items: center;
+  justify-content: center;
+}
+.card2 {
+  width: 180px;
+  height: 120px;
+  margin: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card2-img {
+  width: 80px;
+  height: 90px;
+}
+.card2-text {
+  text-align: center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2% 20%;
+  align-items: center;
+  justify-content: center;
+}
+.gallery-header {
+  font-size: 46px;
+}
+
+.Gallery-img {
+  height: 350px;
+  width: 220px;
+  margin: 10px 20px;
+  cursor: pointer;
+}
+
+.hover-effect {
+  background-color: rgba(77, 72, 72, 0.56);
+  margin: 10px 20px;
+  height: 350px;
+  width: 220px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+}
+
+.display {
+  display: none;
+}
+.page-container {
+  margin-left: 44;
+}
+.last {
+  background-color: aquamarine;
+}
